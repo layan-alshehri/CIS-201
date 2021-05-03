@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+<title>CALCULATOR</title>
+<link rel="stylesheet" href="stylecal.css">
+<script src="caljs.js"></script>
+</head>
+    
+<body>
+<link rel="stylesheet" href="../stylesheet1.css">  
+ <div class="toppage">
+<div class="block">
+<a href="../indexpage.html">HOME</a>
+<a href="../aboutme.html">ABOUT ME</a>
+<a href="cal.html" >CALCULATOR</a>
+<a href="../contactme.html">CONTACT ME</a>
+<a href="../../project/public/mainpage.html">PROJECT</a>
+</div>   
+</div>
+
+    
+    <!------ CALCULATOR --------!>
+    
+<!-- create table -->
+<div class="title" style="text-align: center" ><u>✿ CALCULATOR ✿</u></div>
+<div class="cal">
+<table border="1">
+<tr>
+<td colspan="3"><input type="text" id="result"/></td>
+<!-- clr() function will call clr to clear all value -->
+<td><input type="button" value="c" onclick="clr()"/> </td>
+</tr>
+<tr>
+    <!-- create button and assign value to each button -->
+    <!-- dis("1") will call function dis to display value -->
+<td><input type="button" value="1" onclick="dis('1')"/> </td>
+<td><input type="button" value="2" onclick="dis('2')"/> </td>
+<td><input type="button" value="3" onclick="dis('3')"/> </td>
+<td><input type="button" value="/" onclick="dis('/')"/> </td>
+</tr>
+<tr>
+<td><input type="button" value="4" onclick="dis('4')"/> </td>
+<td><input type="button" value="5" onclick="dis('5')"/> </td>
+<td><input type="button" value="6" onclick="dis('6')"/> </td>
+<td><input type="button" value="-" onclick="dis('-')"/> </td>
+</tr>
+<tr>
+<td><input type="button" value="7" onclick="dis('7')"/> </td>
+<td><input type="button" value="8" onclick="dis('8')"/> </td>
+<td><input type="button" value="9" onclick="dis('9')"/> </td>
+<td><input type="button" value="+" onclick="dis('+')"/> </td>
+</tr>
+<tr>
+<td><input type="button" value="." onclick="dis('.')"/> </td>
+<td><input type="button" value="0" onclick="dis('0')"/> </td>
+    <!-- solve function call function solve to evaluate value -->
+<td><input type="button" value="=" onclick="solve()"/> </td>
+<td><input type="button" value="*" onclick="dis('*')"/> </td>
+</tr>
+</table>
+</div>
+</body>
+</html>

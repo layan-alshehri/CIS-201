@@ -1,0 +1,35 @@
+         input[type="button"]
+         {
+         background-color:#96BDC4;
+         color: black;
+         border: solid black 2px;
+         width:100%;
+         padding: 10px;
+             font-size: 180%;
+             
+       }
+  
+         input[type="text"]
+         {
+         border: solid black 2px;
+             font-size: 180%;
+    }
+.cal{
+    padding: 50px;
+   background-color: #C38888;
+    margin: auto;
+    width: 20%;
+    border: solid black 2px;
+}
+.title{
+    padding:40px;
+    margin: 20px;
+    font-size: 200%;
+}
+
+#result{
+    background-color: white;
+    width: 90%;
+    margin-left: 5%;
+    
+}

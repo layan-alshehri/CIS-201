@@ -1,0 +1,220 @@
+body{
+background-image: url(../img/b.jpg);
+}
+.top{
+line-height: 100px;
+}
+
+.top a {
+
+text-decoration: none;
+font-size: 30px;
+font-family:Lobster;
+color: white;
+padding: 0 20px; 
+margin-left: 100px;
+}
+.top a:hover{
+color: black;
+background-color: #96BDC4;
+cursor: pointer;
+}
+
+nav { 
+width:100%;
+height: 100px;
+    background-image: url(../img/header.jpg);
+    border: solid #C38888 2px;
+
+}
+
+.logo{
+     text-align: center;
+     padding: 20px;
+}
+.logo img{
+     border: solid #C38888 4px;
+}
+
+.head {
+    line-height: 200px;
+     margin: auto 200px;
+    width: 1000px;
+    color: orange;
+
+  
+}
+h1{
+   margin: auto 200px;  
+      color: black;
+    font-family: Original Surfer;
+    padding: 10px;
+      font-size: 50px;
+  word-break: break-all;
+}
+
+/*--------*/
+
+
+
+body {
+  padding: 10px;
+  font-family: fantasy;
+}
+
+
+.row{
+
+    background-color: #C38888;
+    margin: auto;
+  width: 80%;
+  border: 3px solid  #96BDC4;
+  padding: 30px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+     
+}
+
+.content {
+ background-color: #474e5d;
+  padding: 20px;
+width: 80%;
+ 
+   
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+.price {
+  color: #96BDC4;
+  font-size:20px;
+}
+
+
+.content button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #96BDC4;
+  background-color: #E8D4CE;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.content button:hover {
+  opacity: 0.7;
+}
+
+
+
+/*----- about us page ------------*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+   
+}
+
+
+
+.card {
+  box-shadow: 0 4px 8px 3 rgba(0, 0, 0, 0.2);
+      
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+    background-color:#474e5d;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*--------------------------------------*/
+/* Contact us */
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+pre{
+    font-size: 30px;
+    font-family: fantasy;
+    color: #96BDC4;
+}
+
+.contactus{
+   padding: 20px ;
+    background-color:#474e5d; 
+    width: 50%;
+     margin: auto;
+    border: solid black 2px;
+    margin-top: 70px;
+}
+
+input[type="text"]{
+   background-color:white;
+        border: solid balck 1px;
+         width:30%;
+      padding: 5px;
+    margin-left: 30%;
+             
+}
+input[type="email"]{
+   background-color:white;
+        border: solid balck 1px;
+         width:30%;
+      padding: 5px;
+    margin-left: 30%;
+             
+}
+input[type="tel"]{
+   background-color:white;
+        border: solid balck 1px;
+         width:30%;
+      padding: 5px;
+    margin-left: 30%;
+             
+}
+input[type="url"]{
+   background-color:white;
+        border: solid balck 1px;
+         width:30%;
+      padding: 5px;
+    margin-left: 30%;
+}
+#contact-submit{
+        border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #96BDC4;
+  cursor: pointer;
+  width: 10%;
+  font-size: 12px;
+}
+
+
